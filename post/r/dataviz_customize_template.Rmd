@@ -1,0 +1,40 @@
+
+---
+title: "Customize your data visualization"
+author: "Mine Cetinkaya-Rundel **(update)**"
+date: "July 4, 2016 **(update)**"
+output: 
+  html_document: 
+    highlight: pygments
+    theme: united
+---
+
+### Load packages
+
+```{r load-packages, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(oilabs)
+```
+
+### Load all datasets:
+
+```{r load-data}
+
+```
+
+* * *
+
+### Exercise 1:
+
+### Exercise 2:
+
+### Exercise 3:
+
+### Exercise 4:
+
+### Exercise 5:
+
+### Exercise 6:
+
+### Exercise 7:

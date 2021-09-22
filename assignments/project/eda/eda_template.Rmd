@@ -1,0 +1,64 @@
+
+---
+title: "Project -- Exploratory data analysis"
+author: "Team name **(update)**"
+date: "July 4, 2016 **(update)**"
+output:
+  html_document:
+    highlight: pygments
+    theme: united
+---
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# load packages
+library(dplyr)
+library(ggplot2)
+```
+
+* * *
+
+## Research question
+
+Include the research question you settled on. You are welcomed to copy and paste it
+from a previous submission. You are also welcomed to revise and update it if you wish.
+If you have made any substantial updates, please make sure to note them.
+
+## Dataset description
+
+Include the dataset description you settled on. You are welcomed to copy and paste it
+from a previous submission. You are also welcomed to revise and update it if you wish.
+If you have made any substantial updates, please make sure to note them.
+
+## Dataset citation
+
+Include the dataset citation you settled on. You are welcomed to copy and paste it
+from a previous submission. You are also welcomed to revise and update it if you wish.
+If you have made any substantial updates, please make sure to note them.
+
+## Dataset structure
+
+Load the data:
+
+```{r load-data}
+# enter the necessary code to load the data
+
+```
+
+Show the structure of your dataset
+
+```{r str-data}
+# enter the name of your dataset into the function below, and uncomment
+# str(dataset_name)
+```
+
+## Exploratory Data Analysis
+
+**This is the section where you present new work.**
+
+- Perform exploratory data analysis on the dataset (or datasets) that you are using to support your proposal. 
+- This entails obtaining relevant summary statistics and creating at least one data visualization. 
+- Note that your data visualization should use **at least three** variables. 
+- You are welcomed to have more than one data visualization, and chances are you will want to do that. However note that a single high quality visualization (or a low number of such visualizations) will receive a much higher grade than a large number of poor quality visualizations. 
+- The data visualization should be created in R. There is no limit on what tools or packages you may use, however it is perfectly sufficient and acceptable to stick to only the packages we have learned in class. 
+- Your summary statistics and data visualization should be accompanied by brief interpretations.
+- Add R chunks as needed to obtain summary statistics and create data visualization(s). Remember that you can add R chunks by clicking on the green +C button on the top right of your R Markdown pane.

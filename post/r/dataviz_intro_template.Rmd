@@ -1,0 +1,85 @@
+
+---
+title: "Introduction to data visualization with R and RStudio"
+author: "Mine Cetinkaya-Rundel **(update)**"
+date: "July 4, 2016 **(update)**"
+output: 
+  html_document: 
+    highlight: pygments
+    theme: united
+---
+
+## Load packages
+
+```{r load-packages, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(oilabs)
+```
+
+* * *
+
+## Dataset 1: Historical data
+
+Load data:
+
+```{r load-arbuthnot}
+data(arbuthnot)
+```
+
+### Exercise 1:
+
+```{r ex1}
+# insert your code for Ex 1 here, and then Knit
+```
+
+
+### Exercise 2:
+
+Insert your written response for Ex 2 here.
+
+```{r ex2}
+# insert your code for Ex 2 here, and then Knit
+```
+
+
+### Exercise 3:
+
+Insert your written response for Ex 3 here.
+
+```{r ex3}
+# insert your code for Ex 3 here, and then Knit
+```
+
+
+* * *
+
+## Dataset 2: Present day data
+
+Load data:
+
+```{r load-present}
+data(present)
+```
+
+### Exercise 4:
+
+Insert your written response for Ex 4 here.
+
+```{r ex4}
+# insert your code for Ex 4 here, and then Knit
+```
+
+### Exercise 5:
+
+Insert your written response for Ex 5 here.
+
+
+### Exercise 6:
+
+Insert your written response for Ex 6 here.
+
+```{r ex6}
+# insert your code for Ex 6 here, and then Knit
+```
+

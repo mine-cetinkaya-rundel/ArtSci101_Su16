@@ -1,0 +1,56 @@
+
+---
+title: "Project -- Dataset and research question"
+author: "Team name **(update)**"
+date: "July 4, 2016 **(update)**"
+output:
+  html_document:
+    highlight: pygments
+    theme: united
+---
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# load packages
+library(dplyr)
+library(ggplot2)
+```
+
+* * *
+
+## Research question(s)
+
+Type your research questions(s) here:
+
+1. Research question 1
+2. Research question 2 (if you have a secondary question)
+3. ...
+
+## Dataset description
+
+Type a brief description of your dataset here
+
+## Dataset citation
+
+Include a citation for your dataset here
+
+## Dataset structure
+
+Load the data:
+
+```{r load-data}
+# enter the necessary code to load the data
+
+```
+
+Show the structure of your dataset
+
+```{r str-data}
+# enter the name of your dataset into the function below, and uncomment
+# str(dataset_name)
+```
+
+## Data analysis plan
+
+Type a brief plan of your data analysis. For now, all you need to include in this section
+is which variables from the dataset you plan to use, and what associations between them 
+you will investigate to help answer your research question.

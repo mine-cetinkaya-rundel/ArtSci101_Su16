@@ -1,0 +1,33 @@
+markdown: kramdown
+exclude:
+  - LICENSE
+  - Makefile
+  - README
+markdown_ext: "md"
+
+layouts: ./_noita
+baseurl: /~mc301/ARTSCI101_Su16
+sakai: https://sakai.duke.edu/portal/site/90aa4d4c-3979-4754-bce6-220b44f9aa9c
+
+noita:
+  name: ARTSCI 101 - From Data to Insight (Summer 2016)
+  description: Jekyll theme built with Foundation
+  lang: en
+  topbar:
+    toggle: Menu
+    right:
+      - name: Schedule
+        url: /
+      - name: Syllabus
+        url: /DatatoInsightSyllabus.pdf
+      - name: Sakai
+        url: https://sakai.duke.edu/portal/site/90aa4d4c-3979-4754-bce6-220b44f9aa9c
+        absolute: true
+      - name: Piazza
+        url: https://sakai.duke.edu/portal/site/90aa4d4c-3979-4754-bce6-220b44f9aa9c/page/f6cfa232-2638-482e-93a8-4aa20ac207ae
+        absolute: true
+      - name: Readings
+        url: /readings/
+      - name: RStudio
+        url: https://vm-manage.oit.duke.edu/containers
+        absolute: true

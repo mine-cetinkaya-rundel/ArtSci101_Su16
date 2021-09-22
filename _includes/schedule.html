@@ -1,0 +1,24 @@
+<table class="table table-striped" style="font-size:90%" width="1000px">
+<thead>
+<tr>
+    <th width="8%" align="left">Week</th>
+    <th width="12%" align="left">Date</th>
+    <th width="30%" align="left">Topic</th>
+    <th width="20%" align="left">Readings due</th>
+    <th width="30%" align="left">Assignments due</th>
+</tr>
+</thead>
+
+{% for row in site.data.schedule.content_hash %}
+<tr>
+    <td style="font-size: 90%;">{{row.Week}}</td>
+    <td style="font-size: 90%;">{{row.Date}}</td>
+    <td>{{row.Topic}}</td>
+    <td style="font-size: 90%;">{{row.ReadingsDue}}</td>
+    <td style="font-size: 90%;">{{row.AssignmentsDue}}</td>
+</tr>
+{% endfor %}
+
+</tbody>
+
+</table>

@@ -1,0 +1,141 @@
+
+---
+title: "Exploring North Carolina births"
+author: "Mine Cetinkaya-Rundel **(update)**"
+date: "July 4, 2016 **(update)**"
+output: 
+  html_document: 
+    highlight: pygments
+    theme: united
+---
+
+## Load packages
+
+```{r load-packages, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(oilabs)
+```
+
+* * *
+
+Load data:
+
+```{r load-nc}
+data(nc)
+```
+
+### Exercise 1:
+
+Written response goes here.
+
+```{r ex1}
+# code goes here
+```
+
+
+### Exercise 2:
+
+Written response goes here.
+
+```{r ex2}
+# code goes here
+```
+
+
+### Exercise 3:
+
+Written response goes here.
+
+```{r ex3}
+# code goes here
+```
+
+
+### Exercise 4:
+
+Written response goes here.
+
+```{r ex4}
+# code goes here
+```
+
+### Exercise 5:
+
+Written response goes here.
+
+```{r ex5}
+# code goes here
+```
+
+### Exercise 6:
+
+Written response goes here.
+
+```{r ex6}
+# code goes here
+```
+
+### Exercise 7:
+
+Written response goes here.
+
+```{r ex7}
+# code goes here
+```
+
+### Exercise 8:
+
+Written response goes here.
+
+```{r ex8}
+# code goes here
+```
+
+### Exercise 9:
+
+Written response goes here.
+
+```{r ex9}
+# code goes here
+```
+
+### Exercise 10:
+
+Written response goes here.
+
+```{r ex10}
+# code goes here
+```
+
+### Exercise 11:
+
+Written response goes here.
+
+```{r ex11}
+# code goes here
+```
+
+### Exercise 12:
+
+Written response goes here.
+
+```{r ex12}
+# code goes here
+```
+
+### Exercise 13:
+
+Written response goes here.
+
+```{r ex13}
+# code goes here
+```
+
+### Exercise 14:
+
+Written response goes here.
+
+```{r ex14}
+# code goes here
+```

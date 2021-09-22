@@ -5,9 +5,13 @@ exclude:
   - README
 markdown_ext: "md"
 
-layouts: ./_noita
-baseurl: /~mc301/ARTSCI101_Su16
+baseurl: http://www2.stat.duke.edu/~mc301/ARTSCI101_Su16/
 sakai: https://sakai.duke.edu/portal/site/90aa4d4c-3979-4754-bce6-220b44f9aa9c
+
+layouts: ./_noita
+sass:
+  sass_dir: noita/_scss
+  style: compressed
 
 noita:
   name: ARTSCI 101 - From Data to Insight (Summer 2016)
